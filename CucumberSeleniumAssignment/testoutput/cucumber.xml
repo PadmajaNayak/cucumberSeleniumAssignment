@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.931">
+    <testcase classname="verify elearning application" name="Verify user is able to sign up" time="44.558">
+        <system-out>
+            <![CDATA[Given I am on the login page of the application on "Chrome".................passed
+When I try to sign up to the application....................................passed
+And I enter mandatory fields "test", "name", "testmail@mail.com", "testuser", "admin123".passed
+And I click on register button..............................................passed
+Then I should see a confirmation message with "test", "name", "Your personal settings have been registered.".passed
+And I should see my email "testmail@mail.com" on the user icon dropdown.....passed
+And I navigate to home page of the application..............................passed
+And I click on compose option...............................................passed
+And I enter "naveen", "Hi for Testing", "Hello Mr. Naveen,
+ This is for Testing
+
+From,
+Naveen1".passed
+And I click on send message button..........................................passed
+And I should see the acknowledgement........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
